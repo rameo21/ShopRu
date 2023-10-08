@@ -23,6 +23,8 @@ Proje, aşağıdaki ana sınıfları içerir:
 - `BillService`: Fatura hesaplamalarını yapar ve indirimleri uygular.
 - `Startup`: API'yi yapılandırır ve hizmetleri kaydeder.
 
+ShopRuUML.drawio dosyasını https://app.diagrams.net/ üzerinden açabilirsiniz
+
 ## Proje Kurulumu
 
 1. .NET Core SDK'yi yükleyin: https://dotnet.microsoft.com/download
