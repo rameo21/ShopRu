@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ShopRu.DataLayer\ShopRu.DataLayer.csproj" />
+    <ProjectReference Include="..\ShopRu.Infrastructure\ShopRu.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>
