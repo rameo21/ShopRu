@@ -9,7 +9,6 @@ namespace ShopRu.Api.Model
         public string Name { get; set; }
         [SwaggerParameter("Price", Required = true)]
         public decimal Price { get; set; }
-        [SwaggerParameter("Groceries,GardenSupplies,Cosmetic", Required = true)]
-        public RayonType RayonType { get; set; }
+        public bool IsGrocery { get; set; }
     }
 }
